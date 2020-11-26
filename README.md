@@ -4,6 +4,9 @@ Demo setup with working docker-compose for postgrest
 ## running the project
 docker-compose up
 
+## remove containers
+docker-compose down
+
 ## api runs on 
 http://localhost:3000
 
