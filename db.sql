@@ -21,7 +21,7 @@ insert into api.users (first_name, last_name, password, email, sex, dob)
 			crypt('password', gen_salt('bf')),
 			'jeff@levinology.com',
 			'male',
-			'1969-07-35'
+			'1969-07-12'
 		);
 
 create role web_anon nologin;
