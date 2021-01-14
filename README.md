@@ -9,7 +9,7 @@ Demo setup with working docker-compose for postgrest
 
 ## remove containers
 ```docker-compose down``` <br>
-*After running this, you have to build again -- needs fix*
+*After running this you have to build again -- needs fix*
 
 ## api runs on 
 http://localhost:3000
