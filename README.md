@@ -2,13 +2,13 @@
 Demo setup with working docker-compose for postgrest
 
 ## building the project
-docker-compose build 
+```docker-compose build ```
 
 ## running the project
-docker-compose up
+```docker-compose up```
 
 ## remove containers
-docker-compose down
+```docker-compose down``` <br>
 *After running this, you have to build again -- needs fix*
 
 ## api runs on 
