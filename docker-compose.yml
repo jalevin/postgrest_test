@@ -16,7 +16,9 @@ services:
     depends_on:
       - db
   db:
-    image: postgres:12.5-alpine
+    build: 
+      context: . 
+      dockerfile: pg-Dockerfile 
     ports:
       - "5432:5432"
     environment:
